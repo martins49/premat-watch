@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>premat</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class=" bg-myPink container  mx-auto p-6 ">
+        <!-- flex container -->
+        <div class="flex flex-row justify-between ">
+            <!-- logo and companies name -->
+            <div class="flex items-center">
+                <!-- logo -->
+                <div>
+                    <img src="./images/premat Logo.png" class="w-6" alt="">
+                </div>
+                <!-- companies name -->
+                <div class="font-bold text-2xl -mt-3">
+                    premat
+                </div>
+            </div>
+            <!-- menu -->
+            <div class="hidden font-semibold space-x-6 md:flex">
+                <a href="#" class="hover:text-myOrange hover:font-bold">Home</a>
+                <a href="#" class="hover:text-myOrange hover:font-bold">Features</a>
+                <a href="#" class="hover:text-myOrange hover:font-bold">About</a>
+                <a href="#" class="hover:text-myOrange hover:font-bold">Product</a>
+                <a href="#" class="hover:text-myOrange hover:font-bold">Faq</a>
+                <a href="#" class="hover:text-myOrange hover:font-bold">Testimonial</a>
+                <a href="#" class="hover:text-myOrange hover:font-bold">Conatact</a>
+            </div>
+            <!-- hamburger icon -->
+            <div class=" md:hidden cursor-pointer w-10" id="hamburger">
+                <img src="images/icon-hamburger.svg" alt="">
+
+            </div> 
+             <!-- exit icon -->
+            <div class="hidden md:hidden w-10"  id="exit">
+                <img src="images/exit icon.png" alt="">
+            </div>
+        </div>
+    </nav>
+    <!-- hero section -->
+    <section id="hero">
+        <!-- flex container -->
+        <div class="container flex flex-col-reverse md:justify-between  mx-auto p-6  bg-myPink md:flex-row relative">
+            <!-- hero content -->
+            <div class=" flex flex-col max-w-sm ">
+                <!-- hero header -->
+                <h1 class="text-5xl pb-6 font-bold">Smart Digital Watch For luxurious Life</h1>
+                <!-- hero text -->
+                <p class="text-gray-600 md:text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    ad voluptates nemo reiciendis
+                    pariatur</p>
+                <!-- hero button   -->
+                <button
+                    class="my-8 p-2 font-semibold rounded w-32 shadow bg-myOrange hover:text-white  md:mx-auto hover:shadow-lg transition ease-in-out duration-700">
+                    <a href="#">
+                        Buy Products
+                    </a>
+                </button>
+            </div>
+            <!-- mobile menu -->
+            <div class="hidden font-semibold -mt-5 absolute top-0 right-6 " id="menu">
+                <a href="#" class="hover:text-myOrange hover:font-bold">Home <br/></a>
+                <a href="#" class="hover:text-myOrange hover:font-bold">Features <br/></a>
+                <a href="#" class="hover:text-myOrange hover:font-bold">About <br/></a>
+                <a href="#" class="hover:text-myOrange hover:font-bold">Product <br/></a>
+                <a href="#" class="hover:text-myOrange hover:font-bold">Faq <br/></a>
+                <a href="#" class="hover:text-myOrange hover:font-bold">Testimonial <br/></a>
+                <a href="#" class="hover:text-myOrange hover:font-bold">Conatact <br/></a>
+            </div>
+            <!-- hero image -->
+            <div class="py-8 max-w-sm mx-auto md:py-4">
+                <img src="images/pink apple watch.png" class="w-60 md:w-72" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- feature section -->
+    <section id="feature">
+        <!-- product feature -->
+        <div class="container mx-auto  p-6 ">
+            <!-- product header -->
+            <h3 class="text-center  pb-2 text-2xl font-semibold md:font-bold"> Product Features</h3>
+            <!-- product text -->
+            <p class="text-center text-xs md:text-sm text-gray-600 w-64 mx-auto"> Placeat inventore explicabo mollitia
+                tempore laborum repellat </p>
+        </div>
+        <!-- features grid -->
+        <div class="container mx-auto md:grid grid-cols-4 gap-5">
+            <!-- grid 1 -->
+            <div class="text-center bg-gray-100 py-12 my-6 w-auto md:my-0 rounded hover:shadow-lg cursor-pointer">
+                <!-- image -->
+                <img src="images/high-quality.png" class="mx-auto" width="70px" alt="">
+                <!-- header -->
+                <h3 class="text-xl py-2 font-semibold md:font-bold">High Quality</h3>
+                <!-- text -->
+                <p>Lorem ipsum dolor debitis dolore molestias officia quisquam odit</p>
+
+            </div>
+            <!-- grid 2 -->
+            <div class=" text-center bg-gray-100 py-12  my-6 w-auto md:my-0 rounded  hover:shadow-lg cursor-pointer">
+                <!-- image -->
+                <img src="images/Awesome design.png" class="mx-auto " width="70px" alt="">
+                <!-- header -->
+                <h3 class="text-xl py-2 font-semibold md:font-bold">Awesome Design</h3>
+                <!-- text -->
+                <p>Lorem ipsum dolor debitis dolore molestias officia quisquam odit</p>
+
+            </div>
+            <!-- grid 3 -->
+            <div class="text-center bg-gray-100 py-12  my-6 w-auto md:my-0 rounded hover:shadow-lg cursor-pointer">
+                <!-- image -->
+                <img src="./images/latest technology.png" class="mx-auto" width="70px" alt="">
+                <!-- header -->
+                <h3 class="text-xl py-2 font-semibold md:font-bold">Latest Technology</h3>
+                <!-- text -->
+                <p>Lorem ipsum dolor debitis dolore molestias officia quisquam odit</p>
+
+            </div>
+            <!-- grid 4 -->
+            <div class=" text-center bg-gray-100 py-12 my-6 w-auto md:my-0 rounded hover:shadow-lg cursor-pointer">
+                <!-- image -->
+                <img src="./images/icons8-user-friendly.png" class=" mx-auto" width="70px" alt="">
+                <!-- header -->
+                <h3 class="text-xl py-2 font-semibold md:font-bold">User Friendly</h3>
+                <!-- text -->
+                <p>Lorem ipsum dolor debitis dolore molestias officia quisquam odit</p>
+
+            </div>
+
+        </div>
+
+
+
+
+    </section>
+
+    <!-- About section -->
+    <section>
+        <!-- flex container -->
+        <div class="flex flex-col container mx-auto mt-10 bg-gray-200 relative">
+            <!-- watch image -->
+            <div class="md:max-w-md px-20 py-16">
+                <img src="images/black_watch.png" width="300px" alt="">
+            </div>
+            <!-- About the product -->
+            <div class="bg-white mb-6 md:mb-0 cursor-pointer rounded shadow-2xl p-6 w-72 mx-auto mt-4 md:absolute md:top-10 md:right-4 lg:right-28">
+              <!-- header -->
+                <h1 class="text-2xl py-4 font-semibold">About the product</h1>
+                <!-- text -->
+                <p class="text-xs text-gray-600 md:text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <!-- list -->
+                <div class="text-sm my-4 font-semibold">
+                    <p>Model No #240 Blackmart</p>
+                    <p>Camera Resolution 24 Mega Pixel</p>
+                    <p>Image Processor Digic7</p>
+                    <p>Aspect Ratio 3.2</p>
+                    <p>Focal Length Equivalent</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<script src="index.js"></script>
+</body>
+
+</html>
